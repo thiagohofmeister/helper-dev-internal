@@ -1,0 +1,19 @@
+{
+  "name": "@thscore/helper-dev-internal",
+  "version": "3.5.0",
+  "main": "index.js",
+  "author": "Thiago Hofmeister <thiago.hofmeister@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "helper-dev-internal": "index.js",
+    "hdi": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fs": "0.0.1-security",
+    "shelljs": "^0.8.3"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && cp package.json ./lib"
+  }
+}
